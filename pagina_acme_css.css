@@ -1,0 +1,338 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+
+:root{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+}
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .covid p{
+    font-size: 18px;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+
+header .menu div{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu div a{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--secondary-color);
+}
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url("./img/9025885_shopping_cart_icon.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+main{
+    padding-top: 150px;
+}
+.calis{
+    background-color: rgba(0, 0, 0, 0);
+} 
+
+main .primera{
+    height: 500px;
+    background-image: url("https://picsum.photos/400/300");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .primera h1{
+
+    color: var(--light-color);
+    position: 80%;
+    margin-left: 850px;
+}
+
+main .primera p{
+
+    color: var(--light-color);
+    margin-left: 850px;
+    font-size: medium;
+}
+
+.middle{
+    position:absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+button .shop{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+main .tercera div{
+    background-color: var(--secondary-color);
+    height: 300px;
+    width: 300px;
+    
+
+}
+
+main .tercera h1{
+    color:var(--light-color);
+    text-decoration: none;
+}
+main .tercera p{
+    color: var(--light-color);
+    text-align: center;
+    padding-top: 50%;
+}
+/*/fin dels indice/*/
+
+.main .segunda span{
+    color: var(--dark-color);
+    font-size: medium;
+    }
+    main .segunda h2{
+        color: var(--primary-color);
+    }
+    
+    main.segunda hola{
+        text-align: left;
+    }
+    
+    main .tercera .caja
+    {
+        display: inline-block;
+        margin: 65px;
+    }
+    
+    main .tercera div{
+        background-color: var(--secondary-color);
+        height: 300px;
+        width: 300px;
+        
+    }
+    
+    main .tercera h1{
+        color:var(--light-color);
+        text-decoration: none;
+    }
+    main .tercera p{
+        color: var(--light-color);
+        text-align: center;
+        padding-top: 50%;
+    }
+    main .tercera p{
+        color: var(--secondary-color);
+    
+    }
+    main .tercera b{
+        color: var(--light-color);
+    }
+    
+    /*/ aca termina  las cartas shop /*/
+    
+    main .cuarta{
+    
+        position:80% ;
+    }
+    main .fondo{
+        height: 350px;
+        background-image: url("imagenes/ejemplo3.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    main .cuarta h1{
+        color: var(--light-color);
+       text-align: right;
+       padding: 50px;
+       font-size: 50px;
+    }
+    main .cuarta p{
+        color: var(--light-color);
+        text-align: right;
+        padding: 20px;
+    }
+    
+    main .cuerta button{
+        width: 50px;
+        height: 50px;
+      background-color: var(--dark-color); 
+      position: 80%;
+        
+    }
+    
+    /*/aca termina la bendita (parte xd) 4/*/
+    main .quinta{
+    
+        margin-top: 0;
+    }
+    
+    main .quinta div {
+        background-color: var(--secondary-color);
+        height: 400px;
+        width: 350px;
+        display: inline-block;
+        margin: 65px;
+    
+    } 
+    
+    main .quinta p{
+        position: absolute;
+        top: 1750px;
+        font-size: 20px;
+        color: var(--dark-color);
+    }
+    main .quinta h1{
+        position: absolute;
+        top: 1780;
+        font-size: 40px;
+        color: var(--secondary-color);
+    }
+    main .quinta div button{
+      position:relative;
+      left: 90%;
+      border: black 1px solid;
+      top: -400px;
+    }
+    
+    /*/aqui mero termina la quinta parte/*/
+    
+    
+    main .sexta div{
+        background-color: var(--secondary-color);
+        height: 600px;
+        width: 800px;
+        display: inline-block;
+        margin: 55px;
+        margin-left: 40%;
+        top: 50px;
+    }
+    main .sexta  div p{
+    
+        color: var(--light-color);
+        font-size: 15px;
+    text-align: right;
+    }
+    main .sexta div h1{
+        text-align: center;
+        color: var(--light-color);
+    
+    }
+    
+    
+    main .sexta  div img{
+       
+       margin-left: -260px;
+       padding-bottom: 20px;
+       position: absolute;
+    }
+    
+    
+    /*/asta aqui termina la sexta parte/*/
+    
+    main .octava div{
+    
+        width: 100%;
+        height: 100px;
+        background-color: var(--secondary-color);
+    }
+    
+    main .octava p{
+    
+        color: var(--light-color);
+        margin-top: 50px;
+    }
+    main .octava span{
+        color: var(--light-color);
+        margin-left: 45%;
+    } 
+    /*/aca termina la pagina/*/
+    
+    
+
